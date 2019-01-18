@@ -1,0 +1,181 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+
+\begin{document}
+
+1)
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (27.9,-23) circle (3);
+\draw (27.9,-23) node {$q_0$};
+\draw [black] (54.4,-7.9) circle (3);
+\draw (54.4,-7.9) node {$q_1$};
+\draw [black] (54.4,-7.9) circle (2.4);
+\draw [black] (54.4,-23) circle (3);
+\draw (54.4,-23) node {$q_2$};
+\draw [black] (54.4,-36.1) circle (3);
+\draw (54.4,-36.1) node {$ds$};
+\draw [black] (30.51,-21.51) -- (51.79,-9.39);
+\fill [black] (51.79,-9.39) -- (50.85,-9.35) -- (51.35,-10.22);
+\draw (42.09,-15.95) node [below] {$a$};
+\draw [black] (30.9,-23) -- (51.4,-23);
+\fill [black] (51.4,-23) -- (50.6,-22.5) -- (50.6,-23.5);
+\draw (41.15,-23.5) node [below] {$b$};
+\draw [black] (52.164,-21.021) arc (-141.18455:-218.81545:8.888);
+\fill [black] (52.16,-21.02) -- (52.05,-20.08) -- (51.27,-20.71);
+\draw (49.7,-15.45) node [left] {$a,b,c$};
+\draw [black] (56.485,-10.039) arc (35.13098:-35.13098:9.403);
+\fill [black] (56.49,-10.04) -- (56.54,-10.98) -- (57.35,-10.41);
+\draw (58.7,-15.45) node [right] {$a,b,c$};
+\draw [black] (30.59,-24.33) -- (51.71,-34.77);
+\fill [black] (51.71,-34.77) -- (51.22,-33.97) -- (50.77,-34.86);
+\draw (40.22,-30.05) node [below] {$c$};
+\end{tikzpicture}
+\end{center}
+
+
+
+2)
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (16.9,-25.4) circle (3);
+\draw (16.9,-25.4) node {$q_0$};
+\draw [black] (28.6,-17.9) circle (3);
+\draw (28.6,-17.9) node {$q_2$};
+\draw [black] (30.5,-34.5) circle (3);
+\draw (30.5,-34.5) node {$q_1$};
+\draw [black] (30.5,-34.5) circle (2.4);
+\draw [black] (42.6,-17.9) circle (3);
+\draw (42.6,-17.9) node {$q_3$};
+\draw [black] (55.4,-17.9) circle (3);
+\draw (55.4,-17.9) node {$q_4$};
+\draw [black] (55.4,-17.9) circle (2.4);
+\draw [black] (55.4,-34.5) circle (3);
+\draw (55.4,-34.5) node {$ds$};
+\draw [black] (19.43,-23.78) -- (26.07,-19.52);
+\fill [black] (26.07,-19.52) -- (25.13,-19.53) -- (25.67,-20.37);
+\draw (23.75,-22.15) node [below] {$1$};
+\draw [black] (31.6,-17.9) -- (39.6,-17.9);
+\fill [black] (39.6,-17.9) -- (38.8,-17.4) -- (38.8,-18.4);
+\draw (35.6,-18.4) node [below] {$1,0$};
+\draw [black] (45.6,-17.9) -- (52.4,-17.9);
+\fill [black] (52.4,-17.9) -- (51.6,-17.4) -- (51.6,-18.4);
+\draw (49,-18.4) node [below] {$1,0$};
+\draw [black] (19.39,-27.07) -- (28.01,-32.83);
+\fill [black] (28.01,-32.83) -- (27.62,-31.97) -- (27.06,-32.8);
+\draw (22.7,-30.45) node [below] {$0$};
+\draw [black] (33.5,-34.5) -- (52.4,-34.5);
+\fill [black] (52.4,-34.5) -- (51.6,-34) -- (51.6,-35);
+\draw (42.95,-35) node [below] {$0,1$};
+\draw [black] (58.08,-33.177) arc (144:-144:2.25);
+\draw (62.65,-34.5) node [right] {$1,0$};
+\fill [black] (58.08,-35.82) -- (58.43,-36.7) -- (59.02,-35.89);
+\draw [black] (10.1,-25.4) -- (13.9,-25.4);
+\fill [black] (13.9,-25.4) -- (13.1,-24.9) -- (13.1,-25.9);
+\draw [black] (55.4,-20.9) -- (55.4,-31.5);
+\fill [black] (55.4,-31.5) -- (55.9,-30.7) -- (54.9,-30.7);
+\draw (54.9,-26.2) node [left] {$1,0$};
+\end{tikzpicture}
+\end{center}
+
+3)
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (31.7,-24.5) circle (3);
+\draw (31.7,-24.5) node {$q_1$};
+\draw [black] (47.6,-24.5) circle (3);
+\draw (47.6,-24.5) node {$q_2$};
+\draw [black] (63,-24.5) circle (3);
+\draw (63,-24.5) node {$q_3$};
+\draw [black] (63,-24.5) circle (2.4);
+\draw [black] (15.2,-24.5) circle (3);
+\draw (15.2,-24.5) node {$q_0$};
+\draw [black] (12.881,-22.615) arc (258.62356:-29.37644:2.25);
+\draw (11.41,-17.86) node [above] {$b$};
+\fill [black] (15.29,-21.51) -- (15.93,-20.83) -- (14.95,-20.63);
+\draw [black] (18.2,-24.5) -- (28.7,-24.5);
+\fill [black] (28.7,-24.5) -- (27.9,-24) -- (27.9,-25);
+\draw (23.45,-24) node [above] {$a$};
+\draw [black] (34.7,-24.5) -- (44.6,-24.5);
+\fill [black] (44.6,-24.5) -- (43.8,-24) -- (43.8,-25);
+\draw (39.65,-24) node [above] {$b$};
+\draw [black] (50.6,-24.5) -- (60,-24.5);
+\fill [black] (60,-24.5) -- (59.2,-24) -- (59.2,-25);
+\draw (55.3,-24) node [above] {$a$};
+\draw [black] (48.97,-21.851) arc (141.96666:38.03334:8.037);
+\fill [black] (48.97,-21.85) -- (49.86,-21.53) -- (49.07,-20.91);
+\draw (55.3,-18.27) node [above] {$b$};
+\draw [black] (33.023,-27.18) arc (54:-234:2.25);
+\draw (31.7,-31.75) node [below] {$a$};
+\fill [black] (30.38,-27.18) -- (29.5,-27.53) -- (30.31,-28.12);
+\draw [black] (60.464,-26.101) arc (-60.92242:-119.07758:26.985);
+\fill [black] (34.24,-26.1) -- (34.69,-26.93) -- (35.18,-26.05);
+\draw (47.35,-30) node [below] {$a$};
+\draw [black] (17.641,-22.758) arc (122.18826:57.81174:25.83);
+\fill [black] (17.64,-22.76) -- (18.58,-22.76) -- (18.05,-21.91);
+\draw (31.4,-18.29) node [above] {$b$};
+\end{tikzpicture}
+\end{center}
+
+4)
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (18.2,-16.1) circle (3);
+\draw (18.2,-16.1) node {$q_0$};
+\draw [black] (43.3,-16.1) circle (3);
+\draw (43.3,-16.1) node {$q_1$};
+\draw [black] (18.2,-34.1) circle (3);
+\draw (18.2,-34.1) node {$q_2$};
+\draw [black] (18.2,-34.1) circle (2.4);
+\draw [black] (43.3,-34.1) circle (3);
+\draw (43.3,-34.1) node {$q_3$};
+\draw [black] (11.2,-16.1) -- (15.2,-16.1);
+\fill [black] (15.2,-16.1) -- (14.4,-15.6) -- (14.4,-16.6);
+\draw [black] (20.818,-14.64) arc (115.42894:64.57106:23.13);
+\fill [black] (40.68,-14.64) -- (40.17,-13.84) -- (39.74,-14.75);
+\draw (30.75,-11.9) node [above] {$0$};
+\draw [black] (19.926,-18.546) arc (28.87391:-28.87391:13.572);
+\fill [black] (19.93,-31.65) -- (20.75,-31.19) -- (19.87,-30.71);
+\draw (22.11,-25.1) node [right] {$1$};
+\draw [black] (16.213,-31.863) arc (-145.57315:-214.42685:11.962);
+\fill [black] (16.21,-18.34) -- (15.35,-18.71) -- (16.17,-19.28);
+\draw (13.62,-25.1) node [left] {$1$};
+\draw [black] (20.774,-32.564) arc (116.93066:63.06934:22.026);
+\fill [black] (40.73,-32.56) -- (40.24,-31.76) -- (39.79,-32.65);
+\draw (30.75,-29.67) node [above] {$0$};
+\draw [black] (40.676,-35.551) arc (-64.75381:-115.24619:23.274);
+\fill [black] (20.82,-35.55) -- (21.33,-36.34) -- (21.76,-35.44);
+\draw (30.75,-38.27) node [below] {$0$};
+\draw [black] (44.941,-18.604) arc (27.19546:-27.19546:14.213);
+\fill [black] (44.94,-31.6) -- (45.75,-31.11) -- (44.86,-30.66);
+\draw (47.01,-25.1) node [right] {$1$};
+\draw [black] (41.578,-31.651) arc (-151.2093:-208.7907:13.602);
+\fill [black] (41.58,-18.55) -- (40.75,-19.01) -- (41.63,-19.49);
+\draw (39.4,-25.1) node [left] {$1$};
+\draw [black] (40.644,-17.49) arc (-65.91343:-114.08657:24.243);
+\fill [black] (20.86,-17.49) -- (21.38,-18.27) -- (21.79,-17.36);
+\draw (30.75,-20.1) node [below] {$0$};
+\end{tikzpicture}
+\end{center}
+
+5)
+
+Let $w = a_1, a_2, ..., a_i$, where for each $i$, $a_i \in \Sigma$. We will prove the correctness of the DFA by induction on $\mid w \mid$ .
+
+\textbf{Base Case:}
+
+Suppose $\mid w \mid = 0$, then $w = \epsilon$. Observe that $\delta^\ast (\,q_0,w )\, = q_0 \ne q_2 $. Since $w = \epsilon$ does not contain either an even number of $0's$ or and odd number of $1's$, the base case has been established.
+
+\textbf{Induction Hypothesis:}
+
+Need help.....
+
+\textbf{Induction Step:}
+
+Need help...
+
+\end{document}
